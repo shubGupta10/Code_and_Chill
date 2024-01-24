@@ -24,7 +24,7 @@ public class TwoSum {
     private static int[] findTwoSumIndices(int[] myNums, int target) {
         for (int i = 0; i < myNums.length; i++) {
             for (int j = i+1 ; j < myNums.length; j++) {
-                if (myNums[i] + myNums[i + 1] == target) {
+                if (myNums[i] + myNums[j] == target) {
                     return new int[] { i, j };
                 }
             }
