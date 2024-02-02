@@ -56,5 +56,13 @@ const sub = (number) =>{
 console.log("The Result of this function is : " + sub(20));
 
 
+// -----------------------------------------------------
+
+// 4:- Arrow Function
+
+const random = (name) =>{
+    return ("Hello " + name)
+}
 
 
+console.log(random("Shubham")); 
