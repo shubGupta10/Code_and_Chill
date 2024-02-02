@@ -23,3 +23,11 @@ function Table(number){
 Table(5);
 
 
+// 2:- Function Expression in Arrow functio and with function keyword
+
+const add = (number) => {
+    return (number + 2);
+}
+
+console.log("The Result is :- " + add(5)); 
+
