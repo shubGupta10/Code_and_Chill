@@ -9,6 +9,7 @@ function multiplyGenerater(number){
 const result = multiplyGenerater(5);
 console.log("Here is your Result:- " + result(6));
 
+// -----------------------------------------------------
 
 // Here is the code of :-
 
@@ -22,6 +23,7 @@ function Table(number){
 
 Table(5);
 
+// --------------------------------------------------------
 
 // 2:- Function Expression in Arrow functio and with function keyword
 
@@ -29,5 +31,30 @@ const add = (number) => {
     return (number + 2);
 }
 
-console.log("The Result is :- " + add(5)); 
+console.log("The Result is : " + add(5)); 
+
+//with function keyword
+
+const add2 = function(number) {
+    return (number + 5);
+}
+
+console.log("The Result is : " + add2(5));
+
+//here this add is a constant it acts as a varible in 1st and then act as a function when call it.
+
+// -----------------------------------------------------
+
+
+
+// 3:- Anonamous Function
+
+const sub = (number) =>{
+    return (number - 10)
+}
+
+console.log("The Result of this function is : " + sub(20));
+
+
+
 
