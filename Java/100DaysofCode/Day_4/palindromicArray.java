@@ -1,5 +1,5 @@
 
-
+//Gfg Question
 public class palindromicArray {
     public static void main(String[] args){
 
