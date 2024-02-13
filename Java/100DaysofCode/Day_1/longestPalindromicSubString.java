@@ -1,4 +1,3 @@
-package Java;
 
 public class longestPalindromicSubString{
     public static void main(String[] args){

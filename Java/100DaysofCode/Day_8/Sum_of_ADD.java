@@ -1,4 +1,3 @@
-package Day_8;
 
 import java.util.Scanner;
 
@@ -17,6 +16,8 @@ public class Sum_of_ADD{
                 sum = sum + i;
             }
         }
+
+        System.out.println("Here is your output:- " + sum);
         
     }
 
