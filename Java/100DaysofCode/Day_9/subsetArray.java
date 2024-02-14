@@ -29,12 +29,14 @@ public class subsetArray{
 
 
         while (i<a1.length && j<a2.length) {
-            if (a1[i] < a2[j]) {
+            if (a1[i] < a2[j]) { //yha hum a2 me check kr rhe hai ki agar a2 ka current element is less than a1 than we will do i++ 
                 i++;
             } else if(a1[i] == a2[j]){
+                //yha hum check kr rhe h ki agar a1 aur a2 ka current elem same h to its a match..
                 i++;
                 j++;
             } else{
+                //if a1 is greater than a2 subset is not present in a1
                 return 0;
             }
         }
