@@ -1,5 +1,12 @@
 // Q: Rotate a array clockwise 
 
+
+//  --> How do we approach it:
+//      - First we store the last element into a temp variable.
+//      - Now we run a loop backward because we need to traverse out element form end to  beginning , excluding 1st element.
+//      - Now we shift the all elements to right.
+//      - Place the last element to beginning that we taken into temp like arr[0] = temp;
+
 public class rotateArray{
     public static void main(String[] args){
 
