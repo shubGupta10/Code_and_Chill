@@ -7,6 +7,8 @@
 //      - Now we shift the all elements to right.
 //      - Place the last element to beginning that we taken into temp like arr[0] = temp;
 
+        // This would be our approach.
+
 public class rotateArray{
     public static void main(String[] args){
 
