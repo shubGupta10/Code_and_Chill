@@ -25,3 +25,14 @@ public class Non_Repeating_Elements{
         return 0;
     }
 }
+
+
+// important point 
+
+// 1. In the inner loop, i represents the index of the current element being evaluated, and j represents the index of another element in the array.
+
+// 2. The condition arr[i] == arr[j] checks if the values of the elements at indices i and j are the same.
+
+// 3 .However, if i is equal to j, it means the algorithm is comparing the element with itself, which would always result in true and incorrectly mark  the element as repeated.
+
+// 4.By adding the condition i != j, the algorithm ensures that it doesn't consider the same element at the same index as a repetition, thus correctly identifying truly repeated elements in the array.
