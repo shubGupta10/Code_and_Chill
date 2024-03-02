@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Armstrong {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter your Number: ");
-        int num = in.nextInt();
-        boolean result = checkArmstrong(num);
-        System.out.println(result);
+        try (Scanner in = new Scanner(System.in)) {
+            System.out.println("Enter your Number: ");
+            int num = in.nextInt();
+            boolean result = checkArmstrong(num);
+            System.out.println(result);
+        }
     }
 
     static boolean checkArmstrong(int num) {
