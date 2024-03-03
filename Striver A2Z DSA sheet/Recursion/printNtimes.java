@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class printNtimes {
     public static void main(String[] args){
 
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
+        try (Scanner in = new Scanner(System.in)) {
+            int n = in.nextInt();
 
-        printName(n, 1);
+            printName(n, 1);
+        }
     }
 
     static void printName(int n, int i){

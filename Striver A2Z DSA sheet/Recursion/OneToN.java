@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class OneToN{
     public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-        int num = in.nextInt();
+        try (Scanner in = new Scanner(System.in)) {
+            int num = in.nextInt();
 
-        printNum(num);
+            printNum(num);
+        }
     }
 
     static void printNum(int num) {
