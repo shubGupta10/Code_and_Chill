@@ -53,6 +53,11 @@ public class hashing{
 
 
 
+        //remove
+        map.remove("China");
+            System.out.println(map);
+
+
         
 
 
