@@ -18,7 +18,7 @@ public class Intersection {
         for(int j =0; j<arr2.length; j++){
             if(set.contains(arr2[j])){
                 count++;
-                set.remove(arr2[j]);
+                set.remove(arr2[j]); // arr2 waale element remove ho jaaynge jo match hue set me se.
             }
         }
 
