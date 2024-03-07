@@ -4,10 +4,10 @@ public class majorityElement{
     public static void main(String[] args){
 
         int [] nums = {1,3,2,5,1,3,1,5,1};
-        findingmajorElem(nums);
+        findingmajorArray(nums);
     }
 
-    static void findingmajorElem(int [] nums){
+    static void findingmajorArray(int [] nums){
         int n = nums.length;
 
         HashMap<Integer, Integer> map = new HashMap<>();
