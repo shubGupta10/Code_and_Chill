@@ -1,5 +1,5 @@
 
-
+//Time Complexity= 0(nlogn)
 
 public class MergeSort {
     public static void main(String[] args) {
