@@ -10,7 +10,7 @@ public class MergeSort {
         for (int i=0; i<n; i++){
             System.out.printf(arr[i] + " ");
         }
-        System.out.printf("");
+        System.out.println();
     }
 
     static void Divide(int [] arr, int si, int ei){
