@@ -33,6 +33,7 @@ public class QuickSort {
             }
         }
 
+        //recursive call
         quickSort(arr , low, e);
         quickSort(arr, s, high);
     }
