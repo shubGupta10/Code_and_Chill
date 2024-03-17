@@ -60,4 +60,31 @@ public class alernateNumber {
  }
 
 
+// Array Implementation of this code :
 
+/* public class Solution {
+    public static int[] alternateNumbers(int[] a) {
+        int n = a.length;
+
+        -> Create result array
+           int[] result = new int[n];
+
+        -> Initialize pointers for positive and negative sections
+           int positiveIndex = 0;
+           int negativeIndex = 1;
+
+        ->  Fill result array with alternate positive and negative elements
+        for (int num : a) {
+            if (num > 0) {
+                result[positiveIndex] = num;
+                positiveIndex += 2;
+            } else {
+                result[negativeIndex] = num;
+                negativeIndex += 2;
+            }
+        }
+
+        return result;
+    }
+}
+*/
