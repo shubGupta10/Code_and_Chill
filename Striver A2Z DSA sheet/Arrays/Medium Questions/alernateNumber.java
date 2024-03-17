@@ -10,7 +10,6 @@ public class alernateNumber {
     }
 
     static ArrayList<Integer> adjustAlternateNumbers(int[] a){
-        int n = a.length;
         
         ArrayList<Integer> positive = new ArrayList<>();
         ArrayList<Integer> negative = new ArrayList<>();
