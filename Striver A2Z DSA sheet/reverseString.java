@@ -12,7 +12,7 @@ public class reverseString {
         for (int i = words.length - 1; i >= 0; i--) {
             reversed.append(words[i]);
             if (i > 0) {
-                reversed.append(" "); // Append a space between words
+                reversed.append(" "); 
             }
         }
         return reversed.toString();
