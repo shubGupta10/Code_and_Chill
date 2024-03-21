@@ -2,13 +2,13 @@ public class isPalindrome {
 
     public static void main(String[] args) {
         String str = "hello";
-        System.out.println(isPalindrome(str));
+        System.out.println(checkPalindrome(str));
     }
     
 
 
 
-static boolean isPalindrome(String str){
+static boolean checkPalindrome(String str){
     if (str == null) {
         return false;
     }
