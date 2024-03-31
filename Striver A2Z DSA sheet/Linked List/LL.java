@@ -4,10 +4,18 @@ public class LL{
     public static void main(String[]args){
         LinkedList<String> list = new LinkedList<String>();
 
+        //adding element at first and last
         list.addFirst("is");
         list.addFirst("This");
         list.addLast("a");
         list.addLast("list");
         System.out.println(list);
+
+
+        //to print the list
+        for(int i=0; i<list.size(); i++){
+            System.out.println(list.get(i) + " -> ");
+        }
+        System.out.println("Null");
     }
 }
