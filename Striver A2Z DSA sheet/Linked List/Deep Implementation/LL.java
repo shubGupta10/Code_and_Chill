@@ -51,10 +51,10 @@ public class LL {
         }
         Node currNode = head;
         while (currNode != null) {
-            System.out.println(currNode.data + " ->");
+            System.out.print(currNode.data + " ->");
             currNode = currNode.next;
         }
-        System.out.println("Null");
+        System.out.print("Null");
     }
 
 
