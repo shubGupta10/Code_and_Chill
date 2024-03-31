@@ -14,8 +14,21 @@ public class LL{
 
         //to print the list
         for(int i=0; i<list.size(); i++){
-            System.out.println(list.get(i) + " -> ");
+            System.out.print(list.get(i) + " -> ");
         }
         System.out.println("Null");
+
+        // to delete the element
+
+        list.removeFirst();
+        System.out.println(list);
+        
+        list.removeLast();
+        System.out.println(list);
+
+        //can remove elem at a particular position
+
+        list.remove(1);
+        System.out.println(list);
     }
 }
