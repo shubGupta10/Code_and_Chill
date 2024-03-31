@@ -42,12 +42,28 @@ public class LL {
         currNode.next = newNode;
     }
 
-    
+    // to print the list
+
+    public void printList(){
+        if (head == null) {
+            System.out.println("List is Empty");
+            return;
+        }
+        Node currNode = head;
+        while (currNode != null) {
+            System.out.println(currNode.data + " ->");
+            currNode = currNode.next;
+        }
+        System.out.println("Null");
+    }
 
 
     public static void main(String[] args) {
         LL list = new LL();
         list.addFirst("is");
         list.addFirst("This");
+        list.addLast("a");
+        list.addLast("list");
+        list.printList();
     }
 }
