@@ -1,6 +1,7 @@
 public class LL {
 
     class Node{
+        Node head;
         String data;
         Node next;
 
@@ -13,7 +14,7 @@ public class LL {
 
 
     //adding the element
-    
+
 
 
     public static void main(String[] args) {
