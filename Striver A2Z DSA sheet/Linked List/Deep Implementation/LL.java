@@ -14,7 +14,7 @@ public class LL {
     }
 
 
-    //adding the element
+    //adding the element from start
     public void addFirst(String data){
         //first we create a node
         Node newNode = new Node(data);
@@ -27,6 +27,22 @@ public class LL {
         newNode.next = head;
         head = newNode;
     }
+
+    //adding the element from last
+    public void addLast(String data){
+        Node newNode = new Node(data);
+        if(head == null){
+            head = newNode;
+            return;
+        }
+        Node currNode = head;
+        while (currNode.next != null) {
+            currNode = currNode.next;
+        }
+        currNode.next = newNode;
+    }
+
+    
 
 
     public static void main(String[] args) {
