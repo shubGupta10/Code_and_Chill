@@ -104,7 +104,7 @@ public class LL {
     }
 
 
-    public static void main() {
+    public static void main(String[] args) {
         LL list = new LL();
         list.addFirst("is");
         list.addFirst("This");
