@@ -14,6 +14,7 @@ public class LL {
         Node (String data){
             this.data = data;
             this.next = null;
+            size++;
         }
     }
 
@@ -69,12 +70,14 @@ public class LL {
             return;
         }
 
+        size--;
         head = head.next;
     }
 
 
     //to delete at Last
     public void deleteLast(){
+        size--;
         if(head == null){
             System.out.println("The list is empty");
             return;
