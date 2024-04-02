@@ -17,6 +17,18 @@ public class DDL {
         }
     }
 
+
+    public void insertFirst(int val){
+        Node node = new Node(val);
+        node.next = head;
+        node.prev = null;
+        if (head != null) {
+            return;
+        }
+        head = node;
+        
+    }
+
     public void insertLast(int val) {
         Node node = new Node(val);
         Node last = head;
@@ -45,6 +57,10 @@ public class DDL {
 
     public static void main(String[] args) {
         DDL list = new DDL();
+        list.insertFirst(34);
+        list.insertFirst(43);
+        list.insertFirst(57);
+        list.insertFirst(66);
         list.insertLast(78);
         list.display();
     }
