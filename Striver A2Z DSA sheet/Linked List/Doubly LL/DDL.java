@@ -23,7 +23,7 @@ public class DDL {
         node.next = head;
         node.prev = null;
         if (head != null) {
-            return;
+            head.prev = node;
         }
         head = node;
         
@@ -49,7 +49,7 @@ public class DDL {
     public void display(){
         Node node = head;
         while (node != null) {
-            System.out.println(node.val + " -> ");
+            System.out.print(node.val + " -> ");
             node = node.next;
         }
         System.out.print("END");
