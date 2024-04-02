@@ -40,7 +40,7 @@ public class DDL {
             System.out.println(node.val + " -> ");
             node = node.next;
         }
-        System.out.println();
+        System.out.println("END");
     }
 
     public static void main(String[] args) {
