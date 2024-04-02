@@ -55,6 +55,24 @@ public class DDL {
         System.out.print("END");
     }
 
+    public void reverse() {
+        Node current = head;
+        Node temp = null;
+    
+        // Traverse till the end of the list to find the last node
+        while (current != null) {
+            temp = current.prev; // Save the reference to the previous node
+            current.prev = current.next; // Reverse the links
+            current.next = temp;
+            current = current.prev; // Move to the next node
+        }
+    
+        // If the list is not empty, the new head will be the last node (now first after reversing)
+        if (temp != null) {
+            head = temp.prev;
+        }
+    }
+
     public static void main(String[] args) {
         DDL list = new DDL();
         list.insertFirst(34);
@@ -62,6 +80,7 @@ public class DDL {
         list.insertFirst(57);
         list.insertFirst(66);
         list.insertLast(78);
+        list.reverse();
         list.display();
     }
 }
