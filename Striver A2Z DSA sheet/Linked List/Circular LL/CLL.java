@@ -32,6 +32,30 @@ public class CLL{
             } while(node != head);
         }
     }
+
+
+    public void delete(int val){
+        Node node = head;
+
+        if(head == null){
+            return;
+        }
+
+        if(node.val == val){
+            head = head.next;
+            tail.next = head;
+            return;
+        }
+
+        do{
+            Node n = node.next;
+            if(n.val == val){
+                node.next = n.next;
+                break;
+            }
+            node = node.next;
+        }while(node != head);
+    }
     
     private class Node {
         int val;
@@ -53,6 +77,9 @@ public class CLL{
         list.insert(24);
         list.insert(45);
         list.insert(67);
+        list.display();
+        System.out.println();
+        list.delete(67);
         list.display();
         
     }
