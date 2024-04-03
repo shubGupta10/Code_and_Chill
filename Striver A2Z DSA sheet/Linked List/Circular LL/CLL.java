@@ -30,6 +30,8 @@ public class CLL{
                 System.out.print(node.val + " -> ");
                 node = node.next;
             } while(node != head);
+            System.out.println("END");
+
         }
     }
 
