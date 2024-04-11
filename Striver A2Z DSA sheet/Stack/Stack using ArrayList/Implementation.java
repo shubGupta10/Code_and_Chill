@@ -16,7 +16,7 @@ public class Implementation{
         //pop
         public int pop(){
             if (isEmpty()) {
-                return -1; // Stack is empty, return -1
+                return -1; 
             }
             int top = list.get(list.size()-1);
             list.remove(list.size()-1);
