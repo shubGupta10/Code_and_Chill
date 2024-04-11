@@ -10,7 +10,7 @@ public class PushAtBottom {
         }
 
         int top = s.pop();
-        PushElemAtBottom(data, s);
+        PushElemAtBottom(data, s); // data aur stack
         s.push(top);
         return;
 
