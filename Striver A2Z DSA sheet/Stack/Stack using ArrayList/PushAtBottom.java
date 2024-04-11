@@ -4,7 +4,7 @@ public class PushAtBottom {
 
     public static void PushElemAtBottom(int data, Stack<Integer> s){
         //base condition
-        if (!s.empty()) {
+        if (!s.isEmpty()) {
             s.push(data);
             return;
         }
