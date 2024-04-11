@@ -16,6 +16,7 @@ public class Reverse {
 
 
         public static void reverse(Stack<Integer> s){
+            //base case
             if (s.isEmpty()) {
                 return;
             }
