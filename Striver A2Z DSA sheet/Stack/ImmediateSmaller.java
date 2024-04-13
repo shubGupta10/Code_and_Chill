@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class NextGreaterElementCircularArray {
+public class ImmediateSmaller {
 
     public static void findNGE(int[] arr) {
         int n = arr.length;
