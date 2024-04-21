@@ -2,6 +2,8 @@ import java.util.Stack;
 
 public class AestroidCollision {
 
+    //we are using stack
+
     public static int[] aestroidCollision(int[] aestroids) {
         Stack<Integer> stack = new Stack<>();
 
