@@ -11,3 +11,21 @@ function outer(){
 }
 
 outer();
+
+
+function outerSec(){
+    const nameSec = "Gupta"
+    function innerSec(){
+        const secret = "my1234"
+        console.log(secret);
+    }
+
+    function nameThird(){
+        console.log("Third fn");
+    }
+
+    innerSec();
+    nameThird();
+}
+
+outerSec();
