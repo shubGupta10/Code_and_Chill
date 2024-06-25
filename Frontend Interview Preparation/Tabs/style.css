@@ -1,0 +1,5 @@
+.selected{
+    border: 2px solid black;
+    color: blue;
+    font-size: 20px;
+}

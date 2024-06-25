@@ -1,0 +1,47 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .columns {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  nav, main, aside {
+    flex: 1; /* Equal width for each column */
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #f0f0f0;
+  }
+  
+  main {
+    background-color: #e0e0e0;
+  }
+  
+  aside {
+    background-color: #f0f0f0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
