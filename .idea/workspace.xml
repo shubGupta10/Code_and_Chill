@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d0f029d-833d-4856-916f-01afdfbb4000" name="Changes" comment="" />
+    <list default="true" id="0d0f029d-833d-4856-916f-01afdfbb4000" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Striver A2Z DSA sheet/Arrays/Easy Questions/nextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,26 +32,70 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2boMvmuF4JYCSKyfPT5GBNHBd4G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Node.js.Activity1.js.executor": "Run",
+    "Node.js.Activity2.js.executor": "Run",
+    "Node.js.Activity3.js.executor": "Run",
+    "Node.js.Activity4.js.executor": "Run",
     "Node.js.function.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Node.js.Activity4.js">
+    <configuration name="Activity1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity1.js" working-dir="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)">
+      <method v="2" />
+    </configuration>
+    <configuration name="Activity2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity2.js" working-dir="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)">
+      <method v="2" />
+    </configuration>
+    <configuration name="Activity3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity3.js" working-dir="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)">
+      <method v="2" />
+    </configuration>
+    <configuration name="Activity4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity4.js" working-dir="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Activity4.js" />
+        <item itemvalue="Node.js.Activity3.js" />
+        <item itemvalue="Node.js.Activity2.js" />
+        <item itemvalue="Node.js.Activity1.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,6 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706877213670</updated>
       <workItem from="1706877215814" duration="140000" />
+      <workItem from="1721564051950" duration="1501000" />
     </task>
     <servers />
   </component>
