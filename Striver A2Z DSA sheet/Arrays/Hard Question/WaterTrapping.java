@@ -19,6 +19,7 @@ public class WaterTrapping{
         for(int i=0; i<n; i++){
             result += (Math.min(left[i], right[i]) - arr[i]);
         }
+
         return result;
      }
     
