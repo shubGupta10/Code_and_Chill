@@ -10,6 +10,7 @@ public class ChocolatesDistribution {
     }
 
     public static int ChocolatesDistributionProblem(int[] nums, int m){
+        //check if nums is empty
         if(nums.length == 0) return 0;
 
         if(nums.length < m){
