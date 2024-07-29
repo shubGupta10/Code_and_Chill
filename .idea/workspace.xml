@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d0f029d-833d-4856-916f-01afdfbb4000" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Striver A2Z DSA sheet/Arrays/Easy Questions/nextPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +43,7 @@
     "Node.js.Activity2.js.executor": "Run",
     "Node.js.Activity3.js.executor": "Run",
     "Node.js.Activity4.js.executor": "Run",
+    "Node.js.Activity5.js.executor": "Run",
     "Node.js.function.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +60,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.Activity4.js">
+  <component name="RunManager" selected="Node.js.Activity5.js">
     <configuration name="Activity1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity1.js" working-dir="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)">
       <method v="2" />
     </configuration>
@@ -79,8 +73,12 @@
     <configuration name="Activity4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity4.js" working-dir="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)">
       <method v="2" />
     </configuration>
+    <configuration name="Activity5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)/Activity5.js" working-dir="$PROJECT_DIR$/30 Days JavaScript Challange/Day 3 (Control Structures)">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Activity5.js" />
         <item itemvalue="Node.js.Activity4.js" />
         <item itemvalue="Node.js.Activity3.js" />
         <item itemvalue="Node.js.Activity2.js" />
@@ -105,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706877213670</updated>
       <workItem from="1706877215814" duration="140000" />
-      <workItem from="1721564051950" duration="1501000" />
+      <workItem from="1721564051950" duration="2700000" />
     </task>
     <servers />
   </component>
