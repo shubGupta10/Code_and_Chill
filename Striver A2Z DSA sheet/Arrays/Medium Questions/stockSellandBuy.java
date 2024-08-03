@@ -6,6 +6,7 @@ public class stockSellandBuy {
         System.out.println(result);
     }
 
+    //custom function for besttimeandstocks
     static int bestTimeforStocks(int[] prices) {
         int n = prices.length;
         if (n < 2) {
