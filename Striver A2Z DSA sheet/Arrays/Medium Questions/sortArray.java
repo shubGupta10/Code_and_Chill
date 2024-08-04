@@ -3,6 +3,7 @@ import java.util.Collections;
 
 public class sortArray {
     public static void main(String[] args) {
+      //Sorting array with ArrayList
         ArrayList<Integer> list = new ArrayList<>();
         list.add(2);
         list.add(2);
