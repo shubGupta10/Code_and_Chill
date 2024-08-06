@@ -26,6 +26,7 @@ public class Longest_Palindromic_Substring {
         return s.substring(start, end + 1);
     }
 
+    //expand around function
     private int expandAroundCenter(String s, int left, int right) {
         while(left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
             left--;
