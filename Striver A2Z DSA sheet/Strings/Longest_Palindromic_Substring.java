@@ -6,10 +6,12 @@ public class Longest_Palindromic_Substring {
     }
 
     public String longestPalindrome(String s) {
+        //we check if it is null or not
         if(s == null || s.length() == 0) {
             return "";
         }
 
+        //from start and end
         int start = 0, end = 0;
 
         for(int i = 0; i < s.length(); i++) {
