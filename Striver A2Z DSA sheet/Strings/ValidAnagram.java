@@ -9,6 +9,7 @@ public class ValidAnagram {
         System.out.println(va.CheckValidAnagram(s, t));
     }
 
+    //function to check if it is valid anagram or not
     public static boolean CheckValidAnagram(String s, String t){
         if(s.length() != t.length()){
             return false;
