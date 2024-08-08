@@ -1,5 +1,13 @@
 public class lexicalSmallestStrings {
-    public String getSmallestString(String s) {
+
+    public static void main(String[] args) {
+        String s = "45320";
+        String result = getSmallestString(s);
+        System.out.println(result);
+    }
+
+
+    public static String getSmallestString(String s) {
         char[] chars = s.toCharArray();
         int n = chars.length;
 
