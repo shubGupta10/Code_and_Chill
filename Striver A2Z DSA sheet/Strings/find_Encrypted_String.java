@@ -12,4 +12,10 @@ public class find_Encrypted_String {
 
         return encryptedString.toString();
     }
+
+    public static void main(String[] args) {
+        int k = 2;
+        find_Encrypted_String test = new find_Encrypted_String();
+        test.getEncryptedString("abd", k);
+    }
 }
