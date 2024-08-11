@@ -1,5 +1,6 @@
 public class find_Encrypted_String {
-    public String getEncryptedString(String s, int k) {
+    //function to find encrypted string
+    public String GetEncryptedString(String s, int k) {
         int n = s.length();
         StringBuilder encryptedString = new StringBuilder();
 
@@ -16,6 +17,6 @@ public class find_Encrypted_String {
     public static void main(String[] args) {
         int k = 2;
         find_Encrypted_String test = new find_Encrypted_String();
-        test.getEncryptedString("abd", k);
+        test.GetEncryptedString("abd", k);
     }
 }
