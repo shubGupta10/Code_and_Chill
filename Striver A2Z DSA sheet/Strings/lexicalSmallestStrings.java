@@ -7,6 +7,7 @@ public class lexicalSmallestStrings {
     }
 
 
+    //function to get smallest string
     public static String getSmallestString(String s) {
         char[] chars = s.toCharArray();
         int n = chars.length;
