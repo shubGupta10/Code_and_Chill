@@ -49,7 +49,6 @@ public class MergeList {
     }
 }
 
-// Definition for singly-linked list node.
 class ListNode {
     int data;
     ListNode next;
