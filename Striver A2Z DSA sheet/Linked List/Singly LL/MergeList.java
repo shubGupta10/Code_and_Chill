@@ -14,7 +14,14 @@ public class MergeList {
         printList(mergedList);
     }
 
-
+    public static void printList(ListNode head) {
+        ListNode current = head;
+        while (current != null) {
+            System.out.print(current.data + " ");
+            current = current.next;
+        }
+        System.out.println();
+    }
 
     public ListNode mergeTwoLists(ListNode L1, ListNode L2) {
         ListNode result = new ListNode(0);
