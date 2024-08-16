@@ -56,6 +56,7 @@ public class isPalindrome {
         return prev;
     }
 
+    //ListNode class for node
     public static class ListNode {
         int x;
         ListNode next;
