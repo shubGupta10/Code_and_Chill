@@ -1,4 +1,5 @@
 public class Add_two_Number {
+    //main function
     public static void main(String[] args) {
         ListNode l1 = new ListNode(2);
         l1.next = new ListNode(4);
@@ -15,6 +16,7 @@ public class Add_two_Number {
         printList(result);
     }
 
+    //to print the output
     private static void printList(ListNode node) {
         while (node != null) {
             System.out.print(node.val);
