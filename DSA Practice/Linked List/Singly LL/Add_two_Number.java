@@ -1,6 +1,29 @@
 public class Add_two_Number {
     public static void main(String[] args) {
+        ListNode l1 = new ListNode(2);
+        l1.next = new ListNode(4);
+        l1.next.next = new ListNode(3);
 
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
+
+        Add_two_Number solution = new Add_two_Number();
+        ListNode result = solution.addtwoNumber(l1, l2);
+
+        System.out.print("Result: ");
+        printList(result);
+    }
+
+    private static void printList(ListNode node) {
+        while (node != null) {
+            System.out.print(node.val);
+            if (node.next != null) {
+                System.out.print(" -> ");
+            }
+            node = node.next;
+        }
+        System.out.println();
     }
 
     public ListNode addtwoNumber(ListNode l1, ListNode l2){
