@@ -1,4 +1,5 @@
 public class MergeList {
+//    main function
     public static void main(String[] args) {
         ListNode L1 = new ListNode(1);
         L1.next = new ListNode(3);
