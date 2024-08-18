@@ -1,4 +1,5 @@
 public class DeleteDuplicates {
+    //main function
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         head.next = new ListNode(1);
