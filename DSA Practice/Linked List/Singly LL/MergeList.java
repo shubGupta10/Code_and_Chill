@@ -15,6 +15,7 @@ public class MergeList {
         printList(mergedList);
     }
 
+    //function to print list
     public static void printList(ListNode head) {
         ListNode current = head;
         while (current != null) {
