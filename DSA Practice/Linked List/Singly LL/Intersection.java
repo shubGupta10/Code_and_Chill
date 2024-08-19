@@ -5,6 +5,7 @@ public class Intersection {
             return null;
         }
 
+        //two nodes on head
         ListNode p1 = headA;
         ListNode p2 = headB;
 
