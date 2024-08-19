@@ -23,6 +23,7 @@ public class CheckCycle {
             return false;
         }
 
+        //applying tortoise and heir approach
         ListNode slow = head;
         ListNode fast = head;
 
