@@ -20,6 +20,7 @@ public class RemoveLinkedListElement{
         printList(newHead);
     }
 
+    //remove element from list
     public static ListNode removeElements(ListNode head, int val) {
         while (head != null && head.val == val) {
             head = head.next;
