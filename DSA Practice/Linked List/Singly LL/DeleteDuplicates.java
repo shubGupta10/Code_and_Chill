@@ -21,6 +21,7 @@ public class DeleteDuplicates {
             return null;
         }
 
+        //finder node to traverse
         ListNode Finder = head;
 
         while(Finder != null && Finder.next != null){
