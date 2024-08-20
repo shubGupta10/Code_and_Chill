@@ -27,6 +27,7 @@ public class CheckCycle {
         ListNode slow = head;
         ListNode fast = head;
 
+        //slow moves 1 place and fast moves two places
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
