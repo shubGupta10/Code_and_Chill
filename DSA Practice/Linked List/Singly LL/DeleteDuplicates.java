@@ -34,6 +34,7 @@ public class DeleteDuplicates {
         return head;
     }
 
+    //listnode
     public static class ListNode {
         int data;
         ListNode next;
