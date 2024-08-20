@@ -40,6 +40,7 @@ public class CheckCycle {
         return false; 
     }
 
+    //listnode
     public static class ListNode {
         int val;
         ListNode next;
