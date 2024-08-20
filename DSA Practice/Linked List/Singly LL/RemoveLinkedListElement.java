@@ -41,6 +41,7 @@ public class RemoveLinkedListElement{
         return head;
     }
 
+    //printlist to print list
     public static void printList(ListNode head) {
         ListNode curr = head;
         while (curr != null) {
