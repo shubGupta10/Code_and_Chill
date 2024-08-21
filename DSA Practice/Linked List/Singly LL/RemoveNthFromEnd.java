@@ -35,6 +35,7 @@ public class RemoveNthFromEnd {
         return dummy.next;
     }
 
+    //print list to print the list
     public static void printList(ListNode head) {
         while (head != null) {
             System.out.print(head.val + " ");
