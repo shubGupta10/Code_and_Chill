@@ -11,6 +11,16 @@ public class MiddleNode{
         printList(head);
     }
 
+
+    public static void printList(ListNode head) {
+        ListNode curr = head;
+        while (curr != null) {
+            System.out.print(curr.val + " -> ");
+            curr = curr.next;
+        }
+        System.out.println("null");
+    }
+
     public ListNode findMiddleNode(ListNode head){
         ListNode slow = head;
         ListNode fast = head;
