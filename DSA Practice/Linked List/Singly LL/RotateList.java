@@ -1,6 +1,20 @@
 public class RotateList {
     public static void main(String[] args) {
+        RotateList rl = new RotateList();
+        ListNode head = rl.new ListNode(1);
+        head.next = rl.new ListNode(2);
+        head.next.next = rl.new ListNode(3);
+        head.next.next.next = rl.new ListNode(4);
+        head.next.next.next.next = rl.new ListNode(5);
 
+        int k = 2;
+        ListNode newHead = rl.RotateLinkedList(head, k);
+
+        // Print rotated list
+        while (newHead != null) {
+            System.out.print(newHead.val + " ");
+            newHead = newHead.next;
+        }
     }
 
     public int SizeofLL(ListNode head) {
