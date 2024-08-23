@@ -1,6 +1,20 @@
 public class RemoveDuplicates {
     public static void main(String[] args) {
+        // Create a linked list: 1 -> 2 -> 3 -> 3 -> 4 -> 4 -> 5
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(3);
+        head.next.next.next.next = new ListNode(4);
+        head.next.next.next.next.next = new ListNode(4);
+        head.next.next.next.next.next.next = new ListNode(5);
 
+        // Create an instance of RemoveDuplicates and call deleteDuplicates
+        RemoveDuplicates rd = new RemoveDuplicates();
+        ListNode result = rd.deleteDuplicates(head);
+
+        // Print the result
+        printList(result);
     }
 
     public ListNode deleteDuplicates(ListNode head) {
@@ -8,24 +22,23 @@ public class RemoveDuplicates {
             return head;
         }
 
-
         ListNode prev = null;
         ListNode curr = head;
 
         while (curr != null) {
-            if(curr.next != null && curr.val == curr.next.val){
+            if (curr.next != null && curr.val == curr.next.val) {
                 int val = curr.val;
 
-                while(curr != null && curr.val == val){
+                while (curr != null && curr.val == val) {
                     curr = curr.next;
                 }
 
-                if(prev != null){
+                if (prev != null) {
                     prev.next = curr;
-                }else{
+                } else {
                     head = curr;
                 }
-            }else{
+            } else {
                 prev = curr;
                 curr = curr.next;
             }
@@ -33,10 +46,19 @@ public class RemoveDuplicates {
         return head;
     }
 
-    public class ListNode{
+    public static void printList(ListNode head) {
+        ListNode current = head;
+        while (current != null) {
+            System.out.print(current.val + " ");
+            current = current.next;
+        }
+        System.out.println();
+    }
+
+    public static class ListNode {
         int val;
         ListNode next;
-        ListNode(int x){
+        ListNode(int x) {
             val = x;
             next = null;
         }
