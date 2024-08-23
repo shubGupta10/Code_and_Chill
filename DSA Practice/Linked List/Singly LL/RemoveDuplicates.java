@@ -13,7 +13,7 @@ public class RemoveDuplicates {
         ListNode curr = head;
 
         while (curr != null) {
-            if(curr != null && curr.val == curr.next.val){
+            if(curr.next != null && curr.val == curr.next.val){
                 int val = curr.val;
 
                 while(curr != null && curr.val == val){
