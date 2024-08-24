@@ -14,7 +14,11 @@ public class LinkedListCycleII{
 
         ListNode cycleStart = solution.detectCycle(head);
 
-
+        if (cycleStart != null) {
+            System.out.println("Cycle starts at node with value: " + cycleStart.val);
+        } else {
+            System.out.println("No cycle detected.");
+        }
     }
 
     public ListNode detectCycle(ListNode head){
