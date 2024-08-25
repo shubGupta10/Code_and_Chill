@@ -1,6 +1,13 @@
 public class SortLinkedList {
     public static void main(String[] args) {
+        SortLinkedList solution = new SortLinkedList();
+        ListNode head = solution.new ListNode(4);
+        head.next = solution.new ListNode(2);
+        head.next.next = solution.new ListNode(1);
+        head.next.next.next = solution.new ListNode(3);
 
+        ListNode sortedHead = solution.sortList(head);
+        printList(sortedHead);
     }
 
     public ListNode sortList(ListNode head) {
@@ -49,6 +56,15 @@ public class SortLinkedList {
             current.next = right;
         }
         return dummy.next;
+    }
+
+    public static void printList(ListNode head) {
+        ListNode temp = head;
+        while (temp != null) {
+            System.out.print(temp.val + " ");
+            temp = temp.next;
+        }
+        System.out.println();
     }
 
     public class ListNode{
