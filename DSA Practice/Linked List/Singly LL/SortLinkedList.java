@@ -32,6 +32,7 @@ public class SortLinkedList {
             slow = slow.next;
             fast = fast.next.next;
         }
+        return slow;
     }
 
     public ListNode mergeList(ListNode left, ListNode right) {
