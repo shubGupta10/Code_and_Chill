@@ -17,7 +17,15 @@ public class SortLinkedList {
         return mergeList(Left, Right);
     }
 
+    public ListNode getMiddle(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head.next;
 
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+    }
 
     public ListNode mergeList(ListNode left, ListNode right) {
         ListNode dummy = new ListNode(0);
