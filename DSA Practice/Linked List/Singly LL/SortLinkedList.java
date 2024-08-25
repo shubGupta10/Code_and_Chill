@@ -11,10 +11,36 @@ public class SortLinkedList {
         ListNode right = middle.next;
         middle.next = null;
 
-        Left = sortList(left);
-        Right = sortList(right);
+        left = sortList(left);
+        right = sortList(right);
 
         return mergeList(Left, Right);
+    }
+
+
+
+    public ListNode mergeList(ListNode left, ListNode right) {
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;
+
+
+        while(left != null && right != null) {
+            if(left.val < right.val){
+                current.next = left;
+                left = left.next;
+            }else{
+                current.next = right;
+                right = right.next;
+            }
+            current = current.next;
+        }
+
+        if(left != null){
+            current.next = left;
+        }else{
+            current.next = right;
+        }
+        return dummy.next;
     }
 
     public class ListNode{
