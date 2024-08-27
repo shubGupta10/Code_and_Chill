@@ -21,6 +21,7 @@ public class Add_two_Numbers_II {
         }
     }
 
+    //Reverse Function
     public ListNode Reverse(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
