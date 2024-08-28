@@ -4,7 +4,7 @@ public class AestroidCollision {
 
     //we are using stack
 
-    public static int[] aestroidCollision(int[] aestroids) {
+    public static int[] AestroidCollision(int[] aestroids) {
         Stack<Integer> stack = new Stack<>();
 
         for (int a : aestroids) {
@@ -34,7 +34,7 @@ public class AestroidCollision {
 
     public static void main(String[] args) {
         int[] asteroids = { 5, 10, -5 };
-        int[] result = aestroidCollision(asteroids);
+        int[] result = AestroidCollision(asteroids);
         for (int asteroid : result) {
             System.out.print(asteroid + " ");
         }
