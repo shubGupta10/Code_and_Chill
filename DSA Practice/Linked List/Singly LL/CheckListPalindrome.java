@@ -1,6 +1,19 @@
 public class CheckListPalindrome {
-    public static void main(String[] args) {
+    public void main(String[] args) {
+        // Create a linked list: 1 -> 2 -> 2 -> 1
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(2);
+        head.next.next.next = new ListNode(1);
 
+        // Create an instance of the Solution class
+        Solution solution = new Solution();
+
+        // Check if the linked list is a palindrome
+        boolean result = solution.isPalindrome(head);
+
+        // Print the result
+        System.out.println("Is palindrome: " + result);  // Output should be true
     }
 
     public boolean isPalindrome(ListNode head) {
