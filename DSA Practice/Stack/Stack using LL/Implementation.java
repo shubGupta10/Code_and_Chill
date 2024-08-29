@@ -29,6 +29,7 @@ public class Implementation {
             head = newNode;
         }
 
+        //pop function
         public static int pop() {
             if (isEmpty()) {
                 return -1;
