@@ -33,7 +33,7 @@ public class Implementation{
        
     }
     public static void main(String[] args){
-        Implementation imp = new Implementation();
+        Implementation_Using_Stack imp = new Implementation_Using_Stack();
         Stack s = imp.new Stack();
         s.push(1);
         s.push(2);
