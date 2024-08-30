@@ -18,5 +18,14 @@ public class FirstUniqueString {
         return -1;
     }
 
+    public static void main(String[] args) {
+        FirstUniqueString sol = new FirstUniqueString();
+        String s1 = "leetcode";
+        String s2 = "loveleetcode";
+        String s3 = "aabb";
 
+        System.out.println("First unique character index in 'leetcode': " + sol.firstUniqChar(s1));
+        System.out.println("First unique character index in 'loveleetcode': " + sol.firstUniqChar(s2));
+        System.out.println("First unique character index in 'aabb': " + sol.firstUniqChar(s3));
+    }
 }
