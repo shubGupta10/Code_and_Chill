@@ -23,7 +23,29 @@ public class Implementation_Using_LinkedList {
         return result;
     }
 
+    public static void main(String[] args) {
+        try {
+            Implementation_Using_LinkedList queue = new Implementation_Using_LinkedList();
 
+            queue.Enqueue(10);
+            queue.Enqueue(20);
+            queue.Enqueue(30);
+            queue.Enqueue(40);
+
+            System.out.println("DeQueue: " + queue.Dequeue());
+            System.out.println("DeQueue: " + queue.Dequeue());
+
+            queue.Enqueue(50);
+            queue.Enqueue(60);
+
+            while (queue.front != null) {
+                System.out.println("DeQueue: " + queue.Dequeue());
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+    }
 }
 
 class Node {
