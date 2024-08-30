@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Implementation{
+public class Implementation_Using_ArrayList {
     public class Stack{
         private ArrayList<Integer> list = new ArrayList<>();
         
