@@ -18,6 +18,7 @@ public class FirstUniqueString {
         return -1;
     }
 
+//    main function
     public static void main(String[] args) {
         FirstUniqueString sol = new FirstUniqueString();
         String s1 = "leetcode";
