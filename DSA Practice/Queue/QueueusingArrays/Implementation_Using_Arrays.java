@@ -43,6 +43,7 @@ public class Implementation_Using_Arrays {
         return arr[0];
     }
 
+    //main function
     public static void main(String[] args) {
         try {
             Implementation_Using_Arrays queue = new Implementation_Using_Arrays(5);
