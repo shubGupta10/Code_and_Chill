@@ -23,6 +23,7 @@ public class Implementation_Using_LinkedList {
         return result;
     }
 
+    //main function
     public static void main(String[] args) {
         try {
             Implementation_Using_LinkedList queue = new Implementation_Using_LinkedList();
