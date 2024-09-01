@@ -15,6 +15,7 @@ public class FirstUniqueString {
             }
         }
 
+        //if none found
         return -1;
     }
 
