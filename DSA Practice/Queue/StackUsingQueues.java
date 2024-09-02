@@ -33,5 +33,13 @@ public class StackUsingQueues {
     }
 }
 
-
+public class Main {
+    public static void main(String[] args) {
+        StackUsingQueues obj = new StackUsingQueues();
+        obj.push(1);
+        obj.push(2);
+        System.out.println(obj.top());    // Output: 2
+        System.out.println(obj.pop());    // Output: 2
+        System.out.println(obj.empty());  // Output: false
+    }
 }
