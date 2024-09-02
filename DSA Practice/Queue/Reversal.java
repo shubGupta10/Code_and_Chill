@@ -6,17 +6,15 @@ public class Reversal {
     public Queue<Integer> rev(Queue<Integer> q) {
         Queue<Integer> q2 = new LinkedList<>();
 
-        // Transfer elements from the original queue to q2
         while (!q.isEmpty()) {
             q2.offer(q.poll());
         }
 
-        // Transfer elements from q2 back to the original queue in reversed order
         while (!q2.isEmpty()) {
             q.offer(q2.poll());
         }
 
-        return q; // Return the reversed queue
+        return q;
     }
 
     public static void main(String[] args) {
