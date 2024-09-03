@@ -34,6 +34,36 @@ public class minStack {
         public int getMin() {
             return minStack.peek();
         }
+
+    public static void main(String[] args) {
+        minStack minStack = new minStack();
+
+        minStack.MinStack();
+
+        minStack.push(3);
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
+
+        minStack.push(5);
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
+
+        minStack.push(2);
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
+
+        minStack.push(1);
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
+
+        minStack.pop();
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
+
+        minStack.pop();
+        System.out.println(minStack.top());
+        System.out.println(minStack.getMin());
     }
+}
 
 
