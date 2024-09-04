@@ -20,6 +20,7 @@ public class ValidParenthesis {
             return stack.isEmpty();
         }
 
+    //main function
     public static void main(String[] args) {
         ValidParenthesis validator = new ValidParenthesis();
 
