@@ -1,5 +1,6 @@
 import java.util.Stack;
 
+//check if parenthesis is valid
 public class ValidParenthesis {
         public boolean isValid(String s) {
             Stack<Character> stack = new Stack<>();
