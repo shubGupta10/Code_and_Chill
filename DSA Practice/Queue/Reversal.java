@@ -17,6 +17,7 @@ public class Reversal {
         return q;
     }
 
+    //main function 
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(4);
