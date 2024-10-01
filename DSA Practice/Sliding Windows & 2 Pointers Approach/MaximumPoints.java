@@ -5,7 +5,6 @@ public class MaximumPoints {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input: number of cards and k
         System.out.print("Enter number of cards (n): ");
         int n = scanner.nextInt();
         int[] cardPoints = new int[n];
@@ -18,7 +17,6 @@ public class MaximumPoints {
         System.out.print("Enter the number of cards to pick (k): ");
         int k = scanner.nextInt();
 
-        // Create an instance of MaximumPoints and find the maximum points
         MaximumPoints maxPoints = new MaximumPoints();
         int result = maxPoints.findMaximumPoints(cardPoints, k);
 
