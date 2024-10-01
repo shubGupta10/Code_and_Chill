@@ -1,3 +1,4 @@
+// find first unique string
 public class FirstUniqueString {
     public int firstUniqChar(String s) {
         int[] arr = new int[26];
