@@ -11,6 +11,7 @@ public class Main {
 
         list.pop();
 
+        System.out.println("The top element is: " + list.peek());
         list.printElement();
     }
 }

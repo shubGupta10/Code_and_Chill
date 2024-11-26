@@ -48,4 +48,11 @@ public class MyStackLinkedList {
         return value;
     }
 
+    public int peek() {
+        if(head == null){
+            throw new IllegalStateException("Stack is empty");
+        }
+        return head.data;
+    }
+
 }
