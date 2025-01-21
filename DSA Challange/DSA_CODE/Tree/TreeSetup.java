@@ -15,6 +15,7 @@ public class TreeSetup {
         preOrder(root);
         System.out.println();
         postOrder(root);
+        System.out.println();
     }
 
     static Node createTree() { 
